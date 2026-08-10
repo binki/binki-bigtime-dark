@@ -1,5 +1,7 @@
 // ==UserScript==
 // @name binki-bigtime-dark
+// @description A system theme-conditional dark theme for BigTime.
+// @homepageURL https://github.com/binki/binki-bigtime-dark
 // @version 1.0.0
 // @match https://*.bigtime.net/bigtime
 // @match https://*.bigtime.net/bigtime/*
