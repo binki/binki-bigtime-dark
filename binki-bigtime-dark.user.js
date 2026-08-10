@@ -2,7 +2,7 @@
 // @name binki-bigtime-dark
 // @description A system theme-conditional dark theme for BigTime.
 // @homepageURL https://github.com/binki/binki-bigtime-dark
-// @version 1.0.0
+// @version 1.0.1
 // @match https://*.bigtime.net/bigtime
 // @match https://*.bigtime.net/bigtime/*
 // @match https://*.bigtime.net/Bigtime
