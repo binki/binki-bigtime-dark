@@ -57,6 +57,7 @@
     font-weight: bold;
   }
   
+  
   /* dividers */
   .MuiDivider-root.MuiDivider-root {
   	border-color: #444;
@@ -69,18 +70,28 @@
     color: inherit;
   }
   
+  /* button / picker (date?) */
+  .btn.picker-text,
+  .btn-group.date-picker-container:hover,
+  .btn-group.date-picker-container .picker-text:hover {
+    background: transparent;
+    color: inherit;
+  }
+  
   /* icons */
   .icon-arrow-left {
   	background: transparent;
   }
   .icon-arrow-left::after {
   	content: '<';
+    font-size: 18px;
   }
   .icon-arrow-right {
   	background: transparent;
   }
   .icon-arrow-right::after {
   	content: '>';
+    font-size: 18px;
   }
   
   /* toggles */
@@ -99,9 +110,13 @@
   .bt-toggle .selectedOption.selectedOption::after {
     background: transparent;
     color: inherit;
+    height: 22px;
+    border-color: #48a;
+    border-style: solid;
+    border-width: 1pt;
+    top: -11px;
   }
   .bt-toggle .toggleOption.active {
-    border-color: #48a;
     color: inherit;
   }
 `;
