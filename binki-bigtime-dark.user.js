@@ -205,7 +205,7 @@
   	background: black;
     color: #aaa;
   }
-  .form-control[disabled] {
+  .form-control[disabled][disabled] {
     background: black !important;
     color: #888;
   }
