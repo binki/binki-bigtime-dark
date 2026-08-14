@@ -94,6 +94,13 @@
     background: transparent !important;
   }
 
+  /* sidebar */
+  .MuiPopover-paper.MuiPaper-root {
+    background: black;
+    border: 1pt solid #29f;
+    color: inherit;
+  }
+
   /* The logo/title area. */
   div:has(> [data-testid=sidebar_logo]) {
   	container-name: binki-sidebar;
