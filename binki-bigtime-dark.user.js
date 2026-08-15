@@ -221,6 +221,17 @@
     color: #888;
   }
   
+  /* feedback */
+  ._pendo-row {
+    background: transparent !important;
+  }
+  ._pendo-text-paragraph {
+    color: #888 !important;
+  }
+  ._pendo-step-container-styles {
+    background: black !important;
+  }
+  
   /* modal */
   .modal-content {
     background: black;
