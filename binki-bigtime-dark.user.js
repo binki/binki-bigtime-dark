@@ -280,19 +280,18 @@
   
   /* timesheet */
   .dailyplanner.dailyplanner.dailyplanner.dailyplanner.dailyplanner label,
+  .timesheet_wrapper.timesheet_wrapper.timesheet_wrapper .totals-label,
   .timesheet_wrapper.timesheet_wrapper .table-timesheet th {
     color: #888;
   }
   .timesheet_wrapper.timesheet_wrapper.timesheet_wrapper thead,
   .timesheet_wrapper.timesheet_wrapper.timesheet_wrapper tbody,
+  .timesheet_wrapper.timesheet_wrapper.timesheet_wrapper tfoot,
   .timesheet_wrapper .table-timesheet,
-  .timesheet_wrapper .table-timesheet th.hours,
-  .timesheet_wrapper .table-timesheet th.totalhours,
-  .timesheet_wrapper .table-timesheet th.editor-col,
-  .timesheet_wrapper .table-timesheet td.hours,
-  .timesheet_wrapper .table-timesheet td.totalhours,
-  .timesheet_wrapper .table-timesheet td.editor-col {
+  .timesheet_wrapper.timesheet_wrapper .table-timesheet th,
+  .timesheet_wrapper.timesheet_wrapper .table-timesheet td {
     background: transparent;
+    color: inherit;
   }
   .timesheet_wrapper .table-timesheet td.col:hover,
   .timesheet_wrapper .table-timesheet td.hours:hover {
