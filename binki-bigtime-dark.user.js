@@ -298,6 +298,10 @@
   .timesheet_wrapper .table-timesheet td.hours:hover {
     background: #111;
   }
+  .timesheet_wrapper.timesheet_wrapper.timesheet_wrapper.timesheet_wrapper .table-timesheet tr > td:first-child,
+  .timesheet_wrapper.timesheet_wrapper.timesheet_wrapper.timesheet_wrapper .table-timesheet tr > td:first-child:hover {
+    border-color: #888;
+  }
 `;
   document.head.append(style);
 })();
