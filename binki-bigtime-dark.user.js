@@ -35,6 +35,12 @@
   .sidebar-menu-item-title > p,
   .sidebar-menu-item-submenu-group-title > span,
   .MuiButtonBase-root.MuiButtonBase-root,
+  /* nav such as shows up in a modal dialog */
+  .nav-tabs li,
+  .nav-tabs.nav-tabs,
+  .nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs a,
+  /* settings (manage) (manage profile) */
+  .settings-footer-toolbar.settings-footer-toolbar.settings-footer-toolbar.settings-footer-toolbar,
   /* top header */
   header[data-testid=top_nav],
   /* timers */
@@ -49,6 +55,7 @@
   .dailyplanner.dailyplanner.dailyplanner.dailyplanner.dailyplanner ul,
   .dailyplanner .page .form_header_toolbar,
   /* general */ 
+  .modal-content.modal-content.modal-content,
   .MuiTypography-root.MuiTypography-root,
   .popover-title.popover-title,
   .icon-print,
@@ -82,6 +89,10 @@
   p {
   	background: transparent;
     color: inherit;
+  }
+  
+  a {
+    color: #4ad;
   }
   
   /* unclickable things in a menu */
@@ -219,6 +230,24 @@
   }
   .modal-title.modal-title {
   	color: inherit;
+  }
+  
+  /* toolbar-style navigation */
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover,
+  .nav-tabs > li.active > a:focus {
+    /* Override an !important rule. */
+    background: transparent !important;
+    border-bottom-width: 4pt;
+  }
+  .nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs.nav-tabs > li.active > a {
+    /* avoid some weirdness in empty space in the navigation between the active tab marker and the tab label in dark mode */
+    padding-bottom: 2px !important;
+  }
+  
+  /* settings (profile) (manage profile) */
+  .settings-main h6 {
+    color: inherit;
   }
   
   /* toggles */
