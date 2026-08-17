@@ -55,7 +55,6 @@
   .dailyplanner.dailyplanner.dailyplanner.dailyplanner.dailyplanner ul,
   .dailyplanner .page .form_header_toolbar,
   /* general */ 
-  .modal-content.modal-content.modal-content,
   .MuiTypography-root.MuiTypography-root,
   .popover-title.popover-title,
   .icon-print,
@@ -233,8 +232,9 @@
   }
   
   /* modal */
-  .modal-content {
+  .modal-content.modal-content.modal-content {
     background: black;
+    color: inherit;
   }
   .modal-header {
   	background: transparent;
