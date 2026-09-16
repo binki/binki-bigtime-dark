@@ -341,6 +341,6 @@
   .timesheet_wrapper.timesheet_wrapper.timesheet_wrapper.timesheet_wrapper .table-timesheet tr > td:first-child:hover {
     border-color: #888;
   }
-`;
+}`;
   document.head.append(style);
 })();
