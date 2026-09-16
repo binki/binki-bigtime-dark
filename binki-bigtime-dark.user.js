@@ -57,6 +57,7 @@
   .dailyplanner .page .form_header_toolbar,
   /* general */ 
   .MuiTypography-root.MuiTypography-root,
+  .MuiBox-root.MuiBox-root,
   .popover-title.popover-title,
   .icon-print,
   .table-condensed > thead > tr > td,
