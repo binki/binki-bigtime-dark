@@ -12,6 +12,7 @@
 // @match https://*.bigtime.net//Bigtime
 // @match https://*.bigtime.net//Bigtime/*
 // @match https://my.bigtime.net/*
+// @require https://github.com/binki/binki-userscript-when-element-changed-async/raw/88cf57674ab8fcaa0e86bdf5209342ec7780739a/binki-userscript-when-element-changed-async.js
 // ==/UserScript==
 
 (async () => {
@@ -342,5 +343,11 @@
     border-color: #888;
   }
 }`;
-  document.head.append(style);
+  // See #1. After some change to the website (or maybe to Greasemonkey?), the website started putting its CSS in <style/> elements after ours. Monitor the head to make sure we are always last.
+  while (true) {
+    document.head.append(style);
+    await whenElementChangedAsync(document.head, {
+      childList: true,
+    });
+  }
 })();
